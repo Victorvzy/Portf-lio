@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('./assets/Poppins-Black.ttf') format('truetype');
+    font-weight: 400;
+}
+
+body {
+    background-color: #212838fa;
+    overflow: hidden;
+}
+
+
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    margin: 5% 11% 11% 11%;
+    align-content: center;
+}
+
+
+.retangulo {
+    z-index: 10;
+    width: 120rem;
+    height: 46rem;
+    justify-content: center;
+    border-radius: 24px;
+    border: 2px solid #8080804a;
+    background: linear-gradient(73deg, rgba(255, 255, 255, 0.07) 3.44%, rgba(255, 255, 255, 0.04) 64.82%);
+    backdrop-filter: blur(15px);
+}
+
+
+nav {
+    display: flex;
+    font-family: 'Poppins';
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+    margin: 70px 0px 0px 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #F9FAFB;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.conteudo-retangulo {
+    display: flex;
+    font-family: 'Poppins';
+    justify-content: space-around;
+}
+
+.textos {
+    padding-left: 1rem;
+    color: #F9FAFB;
+}
+
+.texto1 {
+    font-size: 63px;
+    line-height: 61px;
+    width: 43rem;
+    
+}
+
+.texto2 {
+    font-size: 20px;
+    line-height: 26px;
+    width: 34rem;
+    
+}
+
+.cor1 {
+    background: linear-gradient(73deg, rgb(255 255 255 / 99%) -26.56%, rgb(75 0 255) 64.82%);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.cor2 {
+    background: linear-gradient(73deg, rgba(255, 0, 123, 0.994) 3.44%, rgb(255, 115, 0) 64.82%);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
