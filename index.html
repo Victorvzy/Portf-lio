@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
+    <script src="custom.js" defer></script>
 </head>
 
 
@@ -17,11 +19,12 @@
         <div class="retangulo">
 
             <nav>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="index2.html">Portfólio</a></li>
+                <li><a onclick="changeTabs('myself')">Inicio</a></li>
+                <li><a onclick="changeTabs('skills')">habilidades</a></li>
+                <li><a onclick="changeTabs('projects')">projetos</a></li>
             </nav>
 
-            <div class="conteudo-retangulo">
+            <div id="myself" class="conteudo-retangulo active">
                 <div class="textos">
 
                     <h1 class="texto1">Halo! Saya Gunawan. Seorang <span class="cor1">Designer</span> dan
@@ -40,12 +43,46 @@
                     </div>
 
                 </div>
-                <img class="img-principal" src="./assets/Sem-Título-2.png" alt="imagem">
+                <img class="img-principal" src="./assets/portifolioimg.png" alt="imagem">
+            </div>
+            <div id="skills" class="conteudo-retangulo">
+                <div class="textos">
+
+                    <h1 class="texto1">Habilidades<span class="cor1">Designer</span> dan
+                        <span class="cor2">Developer</span>
+                    </h1>
+
+                    <p class="texto2">
+                        eu te amo SEIS HORAS LALALALALA MINHA CABEÇA TA PISCANDO voce é bem legal e bonito e charmoso e
+                        cheiroso e interessante e diferente e inteligente e criativo e atencioso e camarada e centrado e
+                        verdadeiro e incrivel BY:VICTOR PARA ANNA
+                    </p>
+
+                    <div class="botao">
+                        <a class="linkedin" href="https://www.linkedin.com/in/victor-hugo-4a5273233/">linkedin</a>
+                    </div>
+
+                </div>
+                <div class="logos">
+                    <img src="./assets/css-3.png" alt="CSSlogo">
+                    <img src="./assets/html.png" alt="HTMLlogo">
+                    <img src="./assets/ilustrador.png" alt="ilustradorLogo">
+                    <img src="./assets/photoshop.png" alt="photoshopLogo">
+                    <img src="./assets/xd.png" alt="AdobeXdlogo">
+                    <img src="./assets/script-java.png" alt="JavaScriptlogo">
+                </div>
             </div>
         </div>
     </div>
     <div class="primeiro-circulo"></div>
     <div class="segundo-circulo"></div>
+    <div class="segundo1-circulo"></div>
+    <div class="terceiro-circulo"></div>
+    <div class="back-circulo"></div>
+    <div class="back2-circulo"></div>
+    <div class="back3-circulo"></div>
+    <div class="back4-circulo"></div>
+    <div class="back5-circulo"></div>
 </body>
 
 </html>

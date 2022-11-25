@@ -5,8 +5,10 @@
 }
 
 body {
-    background-color: #14192E;
     overflow: hidden;
+    height: 100vh;
+    padding: 0;
+    background: linear-gradient(180deg, #b2b4c0 0%, #6d7081 100%);
 }
 
 
@@ -14,29 +16,28 @@ body {
 .container-principal {
     display: flex;
     justify-content: center;
-    margin: 6% 11% 11% 11%;
     align-content: center;
 }
 
 
 .retangulo {
     z-index: 10;
-    width: 120rem;
-    height: 46rem;
+    width: 80rem;
+    height: 38rem;
+    margin-top: 12rem;
     padding: 60px;
     justify-content: center;
     border-radius: 24px;
-    border: 2px solid #8080804a;
-
-
-    background: linear-gradient(73deg, rgba(255, 255, 255, 0.07) 3.44%, rgba(255, 255, 255, 0.04) 64.82%);
+    background: linear-gradient(73deg, rgb(74 74 74 / 0%) 3.44%, rgba(255, 255, 255, 0.04) 64.82%);
     backdrop-filter: blur(15px);
+    box-shadow: -10px 15px 44px 13px #00000045;
 }
 
 nav {
     display: flex;
     font-family: 'Poppins';
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 nav li {
@@ -47,7 +48,7 @@ nav li {
 nav a {
     text-transform: uppercase;
     color: #F9FAFB;
-    font-size: 23px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -55,7 +56,9 @@ nav a {
 .conteudo-retangulo {
     display: flex;
     font-family: 'Poppins';
-    justify-content: space-around;
+    visibility: hidden;
+    position: absolute;
+    align-items: center;
 }
 
 .textos {
@@ -102,44 +105,153 @@ nav a {
 
 .botao {
     display: flex;
+    height: 3rem;
     width: 10rem;
     padding: 2px;
     justify-content: center;
     border-radius: 10px;
     background: linear-gradient(73deg, rgb(255 118 0 / 99%) 3.44%, rgb(255 0 224 / 45%) 64.82%);
+    align-items: center;
+}
 
+.linkedin {
     font-family: 'Poppins';
     font-size: 19px;
     color: #F9FAFB;
+    text-decoration: none;
 }
 
 .img-principal {
-    height: 525px;
+    width: 41rem;
+    position: absolute;
+    left: 41rem;
+    
 }
 
 .primeiro-circulo {
     position: absolute;
     width: 723.06px;
     height: 723.06px;
-    left: -365px;
+     right: -4rem;
     top: -551.06px;
     z-index: 0;
-
-    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ffb5ea 100%);
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ffffff 100%);
     opacity: 0.8;
     filter: blur(100px);
-    transform: rotate(-17.38deg);
-
 }
+
 
 .segundo-circulo {
     position: absolute;
-    width: 606px;
-    height: 606px;
-    right: -244px;
-    bottom: -114px;
+    width: 66%;
+    height: 579px;
+    left: -80rem;
+    bottom: -111px;
     z-index: 0;
-    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #8e5dfa 100%);
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #000000 100%);
     opacity: 0.6;
     filter: blur(100px);
+}
+
+.segundo1-circulo {
+    position: absolute;
+    width: 66%;
+    height: 579px;
+    left: -80rem;
+    bottom: -111px;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #000000 100%);
+    opacity: 0.6;
+    filter: blur(100px);
+}
+
+.terceiro-circulo {
+    position: absolute;
+    width: 22%;
+    height: 34rem;
+    right: -24rem;
+    top: 10rem;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #000000 100%);
+    opacity: 0.6;
+    filter: blur(100px);
+}
+
+.back-circulo {
+    position: absolute;
+    width: 22%;
+    height: 34rem;
+    right: 10%;
+    top: 11rem;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #030016 100%);
+    opacity: 0.6;
+    filter: blur(100px);
+}
+
+.back2-circulo {
+    left: 10%;
+    position: absolute;
+    width: 19%;
+    height: 34rem;
+    top: 15rem;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #030016a1 100%);
+    opacity: 0.6;
+    filter: blur(100px);
+}
+
+.back3-circulo {
+    left: 26%;
+    position: absolute;
+    width: 19%;
+    height: 32rem;
+    top: -15rem;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #03001685 100%);
+    opacity: 0.6;
+    filter: blur(100px);
+}
+
+.back4-circulo {
+    right: 41%;
+    position: absolute;
+    width: 19%;
+    height: 32rem;
+    top: -15rem;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #03001685 100%);
+    opacity: 0.6;
+    filter: blur(100px);
+}
+
+.back5-circulo {
+    right: 38%;
+    position: absolute;
+    width: 25%;
+    height: 32rem;
+    bottom: -6rem;
+    z-index: 0;
+    background: linear-gradient(181deg, #161922 0%, #030016 100%);
+    opacity: 0.6;
+    filter: blur(100px);
+}
+
+.active{
+    visibility: visible;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.logos img {
+ width: 4rem;
+ flex: 0 0 27%;
+ margin: 5%;
 }
