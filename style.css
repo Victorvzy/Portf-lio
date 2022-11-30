@@ -30,7 +30,7 @@ body {
     border-radius: 24px;
     background: linear-gradient(73deg, rgb(74 74 74 / 0%) 3.44%, rgba(255, 255, 255, 0.04) 64.82%);
     backdrop-filter: blur(15px);
-    box-shadow: -10px 15px 44px 13px #00000045;
+    box-shadow: -10px 15px 74px 20px #00000045;
 }
 
 nav {
@@ -97,9 +97,32 @@ nav a {
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
-
-
     -webkit-text-fill-color: transparent;
+}
+
+.conhecimentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+   color: #F9FAFB;
+}
+
+.conhecimentos img {
+    width: 4rem;
+    flex: 0 0 27%;
+    margin: 5%;
+}
+
+.quadrados {
+    height: 9rem;
+    width: 11rem;
+    padding: 2px;
+    border-radius: 10px;
+    background: #d9d9d914;
+    margin-bottom: 20px;
 }
 
 
@@ -140,6 +163,17 @@ nav a {
     filter: blur(100px);
 }
 
+.primeirobranco-circulo {
+    position: absolute;
+    width: 479.06px;
+    height: 723.06px;
+    right: -19rem;
+    bottom: -19rem;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ffffff4f 100%);
+    opacity: 0.8;
+    filter: blur(100px);
+}
 
 .segundo-circulo {
     position: absolute;
@@ -225,7 +259,7 @@ nav a {
     filter: blur(100px);
 }
 
-.back5-circulo {
+/* .back5-circulo {
     right: 38%;
     position: absolute;
     width: 25%;
@@ -235,23 +269,19 @@ nav a {
     background: linear-gradient(181deg, #161922 0%, #030016 100%);
     opacity: 0.6;
     filter: blur(100px);
-}
+} */
 
 .active{
     visibility: visible;
 }
 
-.logos {
+/* .logos {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-}
+} */
 
-.logos img {
- width: 4rem;
- flex: 0 0 27%;
- margin: 5%;
-}
+
